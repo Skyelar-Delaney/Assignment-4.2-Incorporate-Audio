@@ -1,0 +1,22 @@
+<!--Skyelar Delaney-->
+<!DOCTYPE html> <!--Type of document-->
+<html lang="en"> <!--Language of document-->
+<head>
+    <meta charset="UTF-8"> <!--set the charater set to utf-8 for encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assign42.css"> <!--Links the CSS to HTML-->
+    <script src = "assign42.js"></script> <!--Links JS to HTML-->
+    <title>Assignment 4.2: Incorporate Audio</title> <!--Titles for the tab on the web browser-->
+</head>
+<body>
+    <h1>Howling Wolves</h1> <!--Heading 1 for text-->
+    
+    <audio controls> <!--Audio element with controls -->
+
+            <source src="wolves-76744.mp3" type= "audio/mpeg"> </source> <!-- source element that is the audio file and the type-->
+        </audio>
+        <br> <br> <!-- gives a break inbetween items for spacing-->
+    <button id= "startButton" onclick = "StartSound();"> Play Sound</button> <!--button to play the sound with a fuction linked in js-->
+    <button id= "stopButton" onclick = "StopSound();"> Stop Sound</button> <!--button to stop the sound with a fuction linked in js-->
+</body>
+</html>
